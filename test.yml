@@ -1,9 +1,9 @@
-- job: job/cat-job.yml
-  tool: cwl/cat.cwl
+- job: job/pal2nal-test-job.yml
+  tool: cwl/pal2nal.cwl
   output:
     out:
       class: File
-      basename: output.txt
-      checksum: sha1$2af1a59da667eb4aedb182248c1d91741df7e24d
-      size: 31
-  doc: Template for cwltest
+      basename: out.codon
+      checksum: sha1$64ea884e7727396a76feb8ba63ff36aaf70fb702
+      size: 1112
+  doc: Test job for pal2nal

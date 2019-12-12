@@ -1,0 +1,7 @@
+pep_aln:
+  class: File
+  path: ../data/test.aln
+nuc_fasta:
+  class: File
+  path: ../data/test.nuc
+output: paml
